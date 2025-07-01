@@ -1,6 +1,44 @@
-<center>
-    <h1 style="color: red; ">Clara Arvidsson</h1>
-    <img src="bilder/blab_1.jpg" alt="violin" width="500">
-    <p>Violinist och aspirerande programmerare.</p>
-    <br>
-</center>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Två kolumner</title>
+    <style>
+        .container {
+            display: flex;
+        }
+
+        .vänster {
+            flex: 1;
+            padding: 20px;
+            background-color: #ffffff;
+        }
+
+        .höger {
+            flex: 2;
+            padding: 20px;
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1 style="color: red; ">Clara Arvidsson</h1>
+    </center>
+
+    <div class="container">
+        <div class="vänster">
+            <h2>Vänster kolumn</h2>
+            <img src="bilder/blab_1.jpg" alt="violin" width="500">
+        </div>
+
+        <div class="höger">
+            <h2>Höger kolumn</h2>
+            <p>Violinist och aspirerande programmerare.</p>
+        </div>
+    </div>
+</body>
+
+</html>
